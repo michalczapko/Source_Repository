@@ -18,7 +18,7 @@ jobs:
       - name: Trigger Workflow in Another Repository
         run: |
           # Set the required variables
-          repo_owner="Amiynarh" 
+          repo_owner="michalczapko" 
           repo_name="target_repository"  
           event_type="trigger-workflow" 
           service="${{ github.event.inputs.target_service }}"
